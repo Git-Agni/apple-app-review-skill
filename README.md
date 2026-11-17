@@ -6,6 +6,10 @@ It reads your app's code first (screens, purchases, account deletion, every SDK 
 
 Why it exists: [App Store rejection: the 9 questions Apple asks, and the answers that got apps approved](https://annayal.com/blog/app-store-rejection/).
 
+## Pair it with a scanner
+
+This skill writes the words. For technical misses (demo account, privacy manifest, account deletion, staging backend) run a scanner first, e.g. [app-store-preflight-skills](https://github.com/truongduy2611/app-store-preflight-skills) or [app-store-compliance](https://github.com/mjmirza/app-store-compliance). Neither covers the 4.3 nine questions, 3.2(f) or the 2.1 new-account packet, which is what this one is for.
+
 ## Real example
 
 [Backed, approved in 1 minute](examples/backed-update.md): the exact Notes for Review text and why it works.
