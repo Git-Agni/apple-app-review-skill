@@ -1,6 +1,6 @@
 ---
 name: app-review-notes
-description: Write the App Store Connect "Notes for Review" for an iOS app, answer Apple's 9 questions after a Guideline 4.3 / 4.2.6 rejection, or build the Guideline 2.1 "limited App Review history" packet. Use when someone is about to submit an app or update, got an App Store rejection, or asks how to fill the App Review notes field.
+description: Avoid an App Store rejection. Audit an iOS app against the guidelines that cause most rejections, write the App Store Connect "Notes for Review" for an iOS app, answer Apple's 9 questions after a Guideline 4.3 / 4.2.6 rejection, or build the Guideline 2.1 "limited App Review history" packet. Use when someone is about to submit an app or update, got an App Store rejection, or asks how to fill the App Review notes field.
 ---
 
 # app-review-notes
@@ -21,6 +21,7 @@ Do the reviewer's homework before they open the build. A reviewer gets roughly 1
 
 1. **notes** (default): about to submit an app or update. Output the Notes for Review text.
 2. **answer-4.3**: got a 4.3 / 4.2.6 rejection with Apple's 9 questions. Output the reply. Do not tell the user to resubmit.
+4. **audit**: before any submit, walk the rejection map in `GUIDE.md` against the code and listing, and print pass/fail with the guideline number and fix for each.
 3. **packet-2.1**: got "This app has been submitted by a developer account that has a limited App Review history." Output the 6-item packet plus a recording shot list.
 
 ## Step 1: gather facts (read the code first, ask only for what the code can't tell you)
@@ -94,4 +95,5 @@ Recording shot list: start on the home screen of a physical device on the latest
 See `examples/backed-update.md` for a short real note that got an update approved in 1 minute.
 
 ## Step 3: pre-submit check
+Full checklist and rejection map: `GUIDE.md`.
 Print a pass/fail list: own website with privacy/terms/support linked in App Store Connect and in the app, support email on that domain, demo login tested today, account deletion, report/block, every SDK listed, recording link opens signed out, no more than a few similar apps on the account, new account = one app in review at a time.

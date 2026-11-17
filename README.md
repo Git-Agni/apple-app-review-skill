@@ -1,5 +1,7 @@
 # app-review-notes
 
+**Avoid an App Store rejection.** [GUIDE.md](GUIDE.md) is the full playbook: how App Review works, a map of the guidelines that cause most rejections (2.1, 2.3, 3.1, 4.2, 4.3, 4.8, 5.1) with fixes, Apple's 9 questions after a 4.3 spam rejection and how to answer them, the 2.1 new-account packet, how to avoid a 3.2(f) account termination, and a pre-submit checklist.
+
 A free Claude Code skill that fills the App Store Connect **Notes for Review** so the reviewer never has to guess, answers Apple's **9 questions** after a Guideline 4.3 / 4.2.6 rejection, and builds the **Guideline 2.1** packet new developer accounts now get asked for.
 
 It reads your app's code first (screens, purchases, account deletion, every SDK and AI service), then asks you only for what code can't tell it.
@@ -26,6 +28,7 @@ In your app's repo, ask Claude Code:
 - "write my App Review notes for this update"
 - "Apple rejected us under 4.3, here's the message, answer the 9 questions"
 - "we got the limited App Review history notice, build the packet"
+- "audit this app for App Store rejection risks before I submit"
 
 It drafts. You check every claim before pasting it into App Store Connect.
 
