@@ -21,8 +21,8 @@ Do the reviewer's homework before they open the build. A reviewer gets roughly 1
 
 1. **notes** (default): about to submit an app or update. Output the Notes for Review text.
 2. **answer-4.3**: got a 4.3 / 4.2.6 rejection with Apple's 9 questions. Output the reply. Do not tell the user to resubmit.
-4. **audit**: before any submit, walk the rejection map in `GUIDE.md` against the code and listing, and print pass/fail with the guideline number and fix for each.
 3. **packet-2.1**: got "This app has been submitted by a developer account that has a limited App Review history." Output the 6-item packet plus a recording shot list.
+4. **audit**: before any submit, walk the rejection map in `GUIDE.md` against the code and listing, and print pass/fail with the guideline number and fix for each.
 
 ## Step 1: gather facts (read the code first, ask only for what the code can't tell you)
 
