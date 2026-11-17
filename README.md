@@ -1,4 +1,4 @@
-# app-review-notes
+# apple-app-review-skill
 
 **Avoid an App Store rejection.** [GUIDE.md](GUIDE.md) is the full playbook: how App Review works, a map of the guidelines that cause most rejections (2.1, 2.3, 3.1, 4.2, 4.3, 4.8, 5.1) with fixes, Apple's 9 questions after a 4.3 spam rejection and how to answer them, the 2.1 new-account packet, how to avoid a 3.2(f) account termination, and a pre-submit checklist.
 
@@ -19,7 +19,7 @@ This skill writes the words. For technical misses (demo account, privacy manifes
 ## Install
 
 ```bash
-mkdir -p ~/.claude/skills/app-review-notes && curl -sL https://raw.githubusercontent.com/Git-Agni/app-review-notes/main/SKILL.md -o ~/.claude/skills/app-review-notes/SKILL.md
+mkdir -p ~/.claude/skills/app-review-notes && curl -sL https://raw.githubusercontent.com/Git-Agni/apple-app-review-skill/main/SKILL.md -o ~/.claude/skills/app-review-notes/SKILL.md
 ```
 
 ## Use
