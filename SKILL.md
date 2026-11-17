@@ -90,5 +90,8 @@ The six items Apple asks for: screen recording, purpose and audience, setup + cr
 
 Recording shot list: start on the home screen of a physical device on the latest iOS, launch, sign up, log in, main feature, user content + report/block, purchase + unlocked content, delete account.
 
+## Example
+See `examples/backed-update.md` for a short real note that got an update approved in 1 minute.
+
 ## Step 3: pre-submit check
 Print a pass/fail list: own website with privacy/terms/support linked in App Store Connect and in the app, support email on that domain, demo login tested today, account deletion, report/block, every SDK listed, recording link opens signed out, no more than a few similar apps on the account, new account = one app in review at a time.

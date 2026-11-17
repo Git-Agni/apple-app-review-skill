@@ -6,6 +6,10 @@ It reads your app's code first (screens, purchases, account deletion, every SDK 
 
 Why it exists: [App Store rejection: the 9 questions Apple asks, and the answers that got apps approved](https://annayal.com/blog/app-store-rejection/).
 
+## Real example
+
+[Backed, approved in 1 minute](examples/backed-update.md): the exact Notes for Review text and why it works.
+
 ## Install
 
 ```bash
