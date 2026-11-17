@@ -19,7 +19,7 @@ This skill writes the words. For technical misses (demo account, privacy manifes
 ## Install
 
 ```bash
-mkdir -p ~/.claude/skills/app-review-notes && curl -sL https://raw.githubusercontent.com/Git-Agni/apple-app-review-skill/main/SKILL.md -o ~/.claude/skills/app-review-notes/SKILL.md
+mkdir -p ~/.claude/skills/apple-app-review && curl -sL https://raw.githubusercontent.com/Git-Agni/apple-app-review-skill/main/SKILL.md -o ~/.claude/skills/apple-app-review/SKILL.md
 ```
 
 ## Use

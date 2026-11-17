@@ -1,9 +1,9 @@
 ---
-name: app-review-notes
+name: apple-app-review
 description: Avoid an App Store rejection. Audit an iOS app against the guidelines that cause most rejections, write the App Store Connect "Notes for Review" for an iOS app, answer Apple's 9 questions after a Guideline 4.3 / 4.2.6 rejection, or build the Guideline 2.1 "limited App Review history" packet. Use when someone is about to submit an app or update, got an App Store rejection, or asks how to fill the App Review notes field.
 ---
 
-# app-review-notes
+# apple-app-review
 
 Do the reviewer's homework before they open the build. A reviewer gets roughly 13 minutes for a new app and 6 for an update (Phillip Shoemaker, who ran App Review 2009-2016). Anything they can't find or reach in that time becomes a rejection.
 
