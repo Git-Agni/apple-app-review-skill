@@ -1,5 +1,7 @@
 # apple-app-review-skill
 
+> By [An Nayal](https://annayal.com) · used at [Agniverse](https://agniverse.co) · more free tools at [annayal.com/open-source](https://annayal.com/open-source)
+
 **Avoid an App Store rejection.** [GUIDE.md](GUIDE.md) is the full playbook: how App Review works, a map of the guidelines that cause most rejections (2.1, 2.3, 3.1, 4.2, 4.3, 4.8, 5.1) with fixes, Apple's 9 questions after a 4.3 spam rejection and how to answer them, the 2.1 new-account packet, how to avoid a 3.2(f) account termination, and a pre-submit checklist.
 
 A free Claude Code skill that fills the App Store Connect **Notes for Review** so the reviewer never has to guess, answers Apple's **9 questions** after a Guideline 4.3 / 4.2.6 rejection, and builds the **Guideline 2.1** packet new developer accounts now get asked for.
